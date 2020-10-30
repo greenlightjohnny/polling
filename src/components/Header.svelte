@@ -18,5 +18,5 @@
 </style>
 
 <header>
-  <div class="imageCon"><img src="/img/birdy.png" alt="Poll image" /></div>
+  <div class="imageCon"><img src="/img/birdy.png" alt="Poll " /></div>
 </header>

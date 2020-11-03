@@ -9,14 +9,28 @@
 
   .imageCon {
     margin: 0 auto;
-    max-width: 90px;
+    /* //max-width: 90px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   img {
     height: 90px;
-    margin: 0 auto;
+  }
+
+  h1 {
+    display: inline;
+    font-size: 1.3rem;
+  }
+
+  .bird {
+    margin-left: -1.7rem;
   }
 </style>
 
 <header>
-  <div class="imageCon"><img src="/img/birdy.png" alt="Poll " /></div>
+  <div class="imageCon">
+    <h1>Beacon</h1><img src="/img/birdy.png" alt="Poll " />
+    <h1 class="bird">Bird</h1>
+  </div>
 </header>
